@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* Importação das fontes usadas na página, fica a observação peguei algumas no próprio site do Cinemark, além de ter me inspirado na paleta de cores também, priorizando o tema escuro, (sendo bem mais confortavél em minha opnião)e o vermelho que remete bastante a uma sala de cinema, fora que da mais destaque para os posts, botões e links */
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/*Aqui seria um reset para página, para acbar evitando alguns problemas de espaçamento e margens padrões dos navegadores. */
+
+/* Nos estilos imagino que não tenha muito a ser explicado, teria se eu tivesse feito e explicado linha por linhas, mas como deixei para adicionar os comentários no final, não me atentei a essa parte.
+Em sua grande maioria os estilos estão organizados na mesma ordem do index, começando pelo body, titulos, fontes, introdução etc... Exceto em algumas mudanças sutis que acabaram saindo dessa ordem.*/
 
 body {
   background: radial-gradient(
@@ -16,7 +21,7 @@ body {
     rgb(131, 0, 0) 100%
   );
   min-height: 100dvh;
-  font-family: "Work-Sans", sans-serif;
+  font-family: "Work-Sans",sans-serif;
   font-size: medium;
   color: white;
   display: grid;
@@ -28,8 +33,6 @@ body {
   margin: 0%;
   padding: 0%;
 }
-
-h1,
 h2 {
   font-family: "Oswald", serif;
   font-weight: 400;
@@ -38,6 +41,8 @@ h2 {
 h1 {
   color: rgb(255, 255, 255);
   font-size: 2.8rem;
+  font-family: "Oswald",sans-serif;
+
 }
 h2 {
   color: rgb(128, 0, 0);

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <!--PAGINA PRINCIPAL HOME-PAGE-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Contextualizando um pouco do código, vou explicar oque contém no meu <head>.
+    Aqui temos os links, para estilização sendo do arquivo css e do framework w3c.
+    Além do icone do favicon (importante lembrar) temos o titulo da nossa pagina e alguns estilos que eu preferir mudar por aqui apenas por ser mais rapido a alteração e ser pouca coisa, entretanto a maioria estão no arquivo de css dentro da pasta style-home-->
 
-    <link
-      rel="shortcut icon"
-      href="../favicon/favicon-16x16.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="../favicon/favicon-16x16.png" type="image/x-icon"/> 
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
@@ -41,22 +41,23 @@
           color: rgb(255, 255, 255);
         }
         a:hover {
-    color: rgba(255, 0, 0, 0.993);
-    cursor: pointer;
-    }
-
-    </style>
-    
+          color: rgba(255, 0, 0, 0.993);
+          cursor: pointer;
+        }
+    </style>    
   </head>
+
   <body>
+    <!--Dentro do body temos o conteudo da home-page, um pouco de texto para explicr melhor, imagens, que tivemos que editar a parte também.-->
     <nav class="borda-da-page w3-panel w3-round-large 3-border-red">
       <div class="container">
         <header class="catalogo-img w3-container">
           <h1 class="w3-text-red w3-container" style="font-size: 50px;">Cine Page</h1>
         </header>
-
+        
+        <!--INTRODUÇãO-->
         <div class="page-information">
-          <div>
+          <div>            
             <h1>Bem Vindo(a)</h1>
             <p>
               Essa página é dedicada puramente ao entretenimento, feita através
@@ -65,22 +66,22 @@
               como aprensentar algumas curiosidades a parte,espero que goste
             </p>
           </div>
-
-          <div
-            class="informaçoes-rapidas w3-round-large w3-padding w3-container">
-
+          <!--CONTEUDO DA PAGINA/SITE-->
+          <div class="informaçoes-rapidas w3-round-large w3-padding w3-container">
             <div>
               <h1 class="w3-text-red">Catalogo de filmes</h1> 
 
-              <div id="catalogo-de-filmes" class="catalogo-grid">
-
+              <!--O catalogo dos filmes como um todo, abaixo-->
+              <div id="catalogo-de-filmes" class="catalogo-grid"> 
+                
+                <!--Abaixo as imagens e links do catalogo, correspondentes a suas paginas-->
                <div class="filme-card">
                  <img src="imagens/alien-vermelho.jpg" alt="alien-img">
                  <h2><a href="pagina2/pagina2.html" target="_blank">Alien - O Oitavo Passageiro</a></h2>
                </div>
 
                <div class="filme-card">
-                <img src="imagens/freed-quase-vermelho.jpg" alt="fnaf-img">
+                <img src="imagens/freed-quase-vermelho.jpg" alt="fnaf-img" >
                  <h2><a href="pagina3/index.html" target="_blank">Five Nights at Freddy's</a></h2>
                 </div>
 
@@ -91,38 +92,40 @@
 
                 <div class="filme-card">
                   <img src="imagens/sexta-feira-13-capa-2-.jpg" alt="jason-img">
-                    <h2><a href="pagina5/index.html" target="_blank">Sexta-Feira 13</a></h2>
+                    <h2><a href="pagina5/index.html" target="_blank">Sexta-Feira 13</a></h2>                  
                 </div>
 
                  </div>
-
-                 </div>
+                </div>
               </ul>
             </div>
           </div>
+
           <div class="page-information w3-container"> <h1>Sobre o projeto</h1>
             <p>Esse site como diz em sua introdução ele é dedicado a filmes, especificamente do genero de terror, pensado como uma recomendação, de alguns de nossos filmes favoritos com algumas informações a parte, foi uma ideia que tivemos justamente por gostar de muitos filmes desse genero. É um site bem simples feito com dedicação com nosso conhecimento atual, (ou seja, nada profissional) preciso terminar de escrever isso. </p>
-
               </div>
+           
+          <!--A linha hr para separação do conteúdo--> 
           <hr id="hr-footer"/>
+          
+          <!--RODAPÉ-->
           <footer class="page-information" style="margin: 0px;">
             <h1 class="w3-padding">Contato e Referências</h1>
             <ul>
-              <li>Contato:11 9 906MOLE 60ficadura</li>
-              <li>Email:amominhamulher@gmail.com</li>
+              <li>Contato: 11 99062-8371</li>
+              <li>Email: amominhamulher@gmail.com</li><!--Beatriz-te-amo-->
               <li><a href="https://sac.cinemark.com.br/hc/pt-br"target="_blank">Suport</a></li>
               <li>Sites referências: Cinemark - AdoroCinema</li>
             </ul>
           </footer>
-          <hr/>
-
-          
+          <hr/>          
+          <!--Não coloquei botões também iguais as outras paginas justamente para deixar mais dinamica a interação com cards, imagens chamativas e intuitivas além de que queria testar outras maneiras de navegar entre as páginas-->          
 
         <div class="attribution">
           <p>Coded by Beatriz Rodrigues & Henrique Ramos.</p>
           <p>2025</p>
         </div>
       </div>
-    </nav>
+    </nav> 
   </body>
 </html>
