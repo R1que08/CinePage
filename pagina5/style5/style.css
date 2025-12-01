@@ -141,7 +141,7 @@ border-radius: 1rem;
     padding-right: 2px;
 }
 
-.botao-direito {
+.botao-home {
   background-color: rgba(255, 0, 0, 0.822);
   border-radius: 1rem;
   width: 10%;
@@ -162,13 +162,21 @@ border-radius: 1rem;
   border: 1px solid rgb(0, 0, 0);
   cursor: pointer;
   padding: 8px;
+  
 }
 .botao-esquerdo:hover{
     background-color: red;
     cursor: pointer;
 }
-.botao-direito:hover{
+.botao-home:hover{
     background-color: red;
+    cursor: pointer;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgba(0, 0, 0, 0.993);
     cursor: pointer;
 }
 button img {
